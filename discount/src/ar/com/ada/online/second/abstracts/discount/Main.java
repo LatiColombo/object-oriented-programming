@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         ShoppingCart shoppingCart = new ShoppingCart();
         Scanner keyboard = new Scanner(System.in);
 
@@ -51,8 +52,8 @@ public class Main {
         System.out.println("Seleccione un producto de la lista:");
         System.out.println("\t1) Leche \t\t$50");
         System.out.println("\t2) Fideos\t\t$70");
-        System.out.println("\t2) Garbanzos\t\t$47");
-        System.out.println("\t2) Levadura\t\t$64");
+        System.out.println("\t3) Garbanzos\t\t$47");
+        System.out.println("\t4) Levadura\t\t$64");
 
         Food food = new Food(); // instancio el objeto Comida
 
@@ -122,8 +123,8 @@ public class Main {
         System.out.println("Seleccione un producto de la lista:");
         System.out.println("\t1) Rastis \t\t$5000");
         System.out.println("\t2) Mecano\t\t$4799");
-        System.out.println("\t2) Encastre\t\t$477");
-        System.out.println("\t2) Plastilina\t\t$644");
+        System.out.println("\t3) Encastre\t\t$477");
+        System.out.println("\t4) Plastilina\t\t$644");
 
         Toy toy = new Toy();
 
@@ -157,8 +158,8 @@ public class Main {
         System.out.println("Seleccione un producto de la lista:");
         System.out.println("\t1) Martillo \t\t$240");
         System.out.println("\t2) Destornillador\t\t$654");
-        System.out.println("\t2) Taladro\t\t$6776");
-        System.out.println("\t2) Pinza\t\t$454");
+        System.out.println("\t3) Taladro\t\t$6776");
+        System.out.println("\t4) Pinza\t\t$454");
 
         Tool tool = new Tool();
 
